@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://wmtkuppibackend-production.up.railway.app/api/items',
+  baseURL: 'https://wmtkuppibackend-production.up.railway.app/api',
 });
 
 export const getItems = () => API.get('/items');
